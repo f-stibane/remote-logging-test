@@ -2,7 +2,7 @@
 
 ## build
 ### base image
-`docker build -t medulife/rsyslog -f Dockerfile.rsyslog .`
+`docker build -t rsyslog -f Dockerfile.rsyslog .`
 
 ### used for containers
 `docker-compose build --no-cache`

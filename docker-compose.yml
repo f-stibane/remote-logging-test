@@ -3,17 +3,17 @@ version: '3'
 services:
   log-host:
     build: ./log-host
-    image: medulife/log-host
+    image: log-host
     hostname: log-host
   
   logger-1:
     build: ./logger
-    image: medulife/logger
+    image: logger
     hostname: logger-1
     depends_on: [log-host]
   
   logger-2:
     build: ./logger
-    image: medulife/logger
+    image: logger
     hostname: logger-2
     depends_on: [log-host]

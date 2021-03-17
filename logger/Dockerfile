@@ -1,4 +1,4 @@
-FROM medulife/rsyslog
+FROM rsyslog
 
 ADD forward-tcp.conf /etc/rsyslog.d/
 

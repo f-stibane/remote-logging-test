@@ -1,4 +1,4 @@
-FROM medulife/rsyslog
+FROM rsyslog
 
 ADD listen-tcp.conf /etc/rsyslog.d/
 RUN mkdir -p /var/syslog/hosts && \
